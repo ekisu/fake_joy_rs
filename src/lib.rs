@@ -11,7 +11,7 @@ use std::sync::{Arc, Mutex, Condvar};
 
 mod vjoy;
 
-type Button = u8;
+pub type Button = u8;
 
 pub struct VirtualJoystickConfig {
     button_press_duration_ms: i64
