@@ -1,0 +1,10 @@
+[package]
+name = "fake_joy"
+version = "0.1.0"
+authors = ["ekisu <ramonzitosdesorte@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.0"
+timer = "0.2.0"
+chrono = "0.4.0"
